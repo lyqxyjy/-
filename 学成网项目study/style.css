@@ -1,0 +1,153 @@
+* {
+	margin: 0;
+	padding: 0;
+
+}
+li {
+	list-style: none;
+}
+body {
+	background-color: #f3f5f7;
+}
+button {
+	border: none;
+}
+
+.w {
+	width: 1200px;
+	margin: auto;
+}
+.header {
+
+	height: 42px;
+	/*background-color: pink;*/
+	margin: 30px auto;
+
+}
+.logo {
+	float: left;
+	margin-right: 68px;
+}
+.nav {
+	float: left;
+}
+.nav li {
+	float: left;
+	margin-right: 20px;
+	
+}
+ .nav ul li a {
+	display: block;
+	height: 40px;
+	line-height: 40px;
+	padding: 0 20px;
+	color: black;
+	font-size: 18px;
+	text-decoration: none;
+	margin-right: 20px;
+	
+}
+
+.nav li ul a:hover {
+	border-bottom: 3px solid ##00a4ff;
+}
+
+.seach {
+	float: left;
+	margin-right: 70px;
+}
+.seach input {
+	float: left;
+	width: 340px;
+	height: 40px;
+	border: 2px solid #00a4ff;
+	border-right: 0;
+	padding-left: 20px;
+	color: gray;
+}
+.seach button {
+	float: left;
+	width: 50px;
+	height: 40px;
+	background-image: url(images/images/seach.png);
+}
+.user {
+	float: left;
+	height: 40px;
+	margin: 5px;
+	font-size: 14px;
+	color: #666;
+
+}
+.banner {
+	width: 1200px;
+	height: 420px;
+	background: #1c036c url(images/images/banner2_03.jpg) no-repeat top center;
+	padding: 0 220px;
+	
+
+}
+
+.banner ul{
+	float: left;
+	width: 154px;
+	height: 420px;
+	background-color: rgba(0,0,0,.3);
+	padding: 0 18px;
+
+}
+.banner ul li {
+	height: 45px;
+	line-height: 45px;
+}
+.banner ul li a {
+	text-decoration: none;
+	color: white;
+	font-size: 14px;
+}
+.banner ul li a  span {
+	float: right;
+}
+.banner ul li a:hover {
+	color: blue;
+}
+.course {
+	float: right;
+	width: 229px;
+	height: 300px;
+	background-color: white;
+	margin-top: 50px;
+}
+.course2 {
+	height: 48px;
+	background-color: #9bceea;
+	line-height: 48px;
+	/*水平居中*/
+	text-align: center;
+	font-size: 18px;
+	/*文字加粗*/
+	font-weight: bold;
+	color: white
+}
+.course-bd {
+	/*没有宽度的盒子给了padding是不会撑开盒子*/
+	padding: 0 15px;
+}
+.course-bd ul {
+	height: 194px;
+	background-color: rgba(0,0,0,0);
+}
+.course-bd ul li {
+	height: 50px;
+	border-bottom: 1px solid gray;
+	margin-top: 10px;
+}
+.course-bd ul li h4 {
+	font-size: 18px;
+	font-weight: normal;
+}
+.courseChoice {
+	width: 200px;
+	height: 40px;
+	border: 1px solid skyblue;
+}
